@@ -1,0 +1,24 @@
+{
+    "name": "library/hiteak",
+    "description": "Hi-Teak Digital Solution Ltd",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "classmap": [
+            "app/core",
+            "app/auth"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Ahmad Almamare",
+            "email": "almamare.saleh@gmail.com"
+        }
+    ]
+}
